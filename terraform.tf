@@ -1,5 +1,5 @@
 terraform {
-  /*
+  
   cloud {
     organization = "justorderit"
 
@@ -7,7 +7,7 @@ terraform {
       name = "test-gastbob40"
     }
   }
-  */
+
 
   required_providers {
     aws = {
