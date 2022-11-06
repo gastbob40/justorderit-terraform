@@ -7,7 +7,7 @@ resource "aws_instance" "app_timeo" {
   ami                    = "ami-045fa58af83eb0ff4"
   instance_type          = "t2.micro"
   key_name               = "admin"
-  vpc_security_group_ids = ["public_sg.id"]
+  vpc_security_group_ids = [ aws_default_security_group.public_sg.id ]
 
   user_data = <<EOF
   #!/bin/bash
