@@ -1,12 +1,13 @@
 terraform {
-
+  /*
   cloud {
-    organization = "organization-name"
+    organization = "justorderit"
 
     workspaces {
-      name = "learn-terraform-cloud"
+      name = "test-gastbob40"
     }
   }
+  */
 
   required_providers {
     aws = {
@@ -17,3 +18,4 @@ terraform {
 
   required_version = ">= 0.14.0"
 }
+
